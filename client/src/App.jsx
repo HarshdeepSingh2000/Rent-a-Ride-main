@@ -4,16 +4,16 @@ import SignUp from "./pages/user/SignUp";
 import SignIn from "./pages/user/SignIn";
 import Vehicles from "./pages/user/Vehicles";
 import Profile from "./pages/user/Profile";
-import With_nav from "./components/Layout/WithNav";
-import PrivateRoute from "./components/PrivateRoute";
-import { PrivateSignin } from "./components/PrivateRoute";
+import With_nav from "../components/Layout/WithNav";
+import PrivateRoute from "../components/PrivateRoute";
+import { PrivateSignin } from "../components/PrivateRoute";
 
-import AdminPrivateRoutes from "./components/AdminPrivateRoutes";
+import AdminPrivateRoutes from "../components/AdminPrivateRoutes";
 import Enterprise from "./pages/user/Enterprise";
 import Contact from "./pages/user/Contact";
 import VendorSignin from "./pages/vendor/pages/VendorSignin";
 import VendorSignup from "./pages/vendor/pages/VendorSignup";
-import VendorPrivateRoute from "./components/VendorPrivateRoute";
+import VendorPrivateRoute from "../components/VendorPrivateRoute";
 import VendorDashboard from "./pages/vendor/Dashboard/VendorDashboard";
 
 import Layout from "./pages/admin/layouts/Layout";
